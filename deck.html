@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+	<html class="base present loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>deck: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline.css">
+		<link rel="stylesheet" type="text/css" href="lib/reveal.css">
+		<style id="user-css-output" type="text/css"></style>
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-sky-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>A very short lecture on..</h2>
+<div>
+<img src="http://b.vimeocdn.com/ts/449/569/449569217_640.jpg" style="width: 559.8466682219146px; height: 314.33112560571163px; max-height: none; max-width: none;"><br>
+</div>
+<div>
+<b>
+<span style="font-size: 54px;">THE  CENTRAL LIMIT THEOREM </span>
+<br></b>
+</div>
+<div style="text-align: center;">
+<font style="font-size: 54px;">
+    <br></font>
+</div>
+<p>
+</p>
+<div style="text-align: right;">
+<span>Nicola Barban</span>
+<br>
+</div>
+<font style="font-size: 32px;">
+<div style="text-align: right;">
+    <span style="font-size: 32px;">University of Groningen</span>
+</div>
+<div style="text-align: right;">
+<span style="font-size: 32px;">n.barban@rug.nl</span>
+</div>
+</font>
+<p>
+</p>
+    	
+		<!-- Load Javascripts for Widgets -->
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script> -->
+</section><section><h1>The magic of<br> statistics</h1>
+<div>.... Using small sample to study large population</div>
+<div style="text-align: center;">
+<img src="clt/148327-sample.png" style="width: 71.48123598098755px; height: 82.48123598098755px; max-height: none; max-width: none;"><img src="http://content.mycutegraphics.com/graphics/arrow/black-curved-arrow.png"><img src="clt/148322-Screen_Shot_2013-11-10_at_23.05.11.png"><br>
+</div></section><section><h2>US electoral polls</h2>
+<div>
+<ul>
+<li><span>Most of the opinion polls are based on only 1,000 people</span></li>
+<li>But... the US population in 2012 was <b><font style="font-size: 54px;">319,000,000!</font></b>
+</li>
+</ul>
+<p><span style="font-size: 31.732892990112305px;"><font color="#a61c00">How  is this</font></span><span style="font-size: 31.732892990112305px;"><font color="#a61c00"> possible?</font></span><img src="clt/148360-Nathan-silver-650x459.jpg"></p>
+<div style="text-align: left;"><br></div>
+</div>
+<div style="text-align: left;"><br></div></section><section><h2>... because of the</h2>
+<h2>Central Limit Theorem (CLT)</h2>
+<h2 style="text-align: center;">
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Abraham_de_moivre.jpg/200px-Abraham_de_moivre.jpg"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Alexander_Ljapunow_jung.jpg/220px-Alexander_Ljapunow_jung.jpg" style="text-align: center;"> <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/George_P%C3%B3lya_ca_1973.jpg/200px-George_P%C3%B3lya_ca_1973.jpg" style="text-align: center;">
+</h2>
+<p></p>
+<p></p>
+<p></p>
+<ul><li><font color="#000000" style="font-size: 18px;"><span style="text-align: center;"><font><b><a href="http://en.wikipedia.org/wiki/Abraham_de_Moivre" title="Abraham de Moivre" style="background-image: none; font-family: sans-serif; font-style: normal; font-variant: normal; text-align: start;">de Moivre</a> (<span style="font-family: sans-serif; font-style: normal; font-variant: normal; text-align: start;">1667 -1754</span>) </b>was the</font></span> first to use the normal distribution to approximate the distribution of the number of heads resulting from many tosses of a fair coin</font></li></ul>
+<p></p>
+<ul>
+<li>
+<font style="font-size: 18px;"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;">Russian mathematician </span><b><a href="http://en.wikipedia.org/wiki/Aleksandr_Lyapunov" title="Aleksandr Lyapunov" style="color: rgb(11, 0, 128); background-image: none; font-family: sans-serif; font-style: normal; font-variant: normal;">Aleksandr Lyapunov</a> (1857-1918) </b><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;">defined it in general terms and proved precisely how it worked mathematically</span></font><br>
+</li>
+<li><font><font style="font-size: 18px;"><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;">The actual term "central limit theorem" was first used by </span><a href="http://en.wikipedia.org/wiki/George_P%C3%B3lya" title="George Pólya" style="color: rgb(11, 0, 128); background-image: none; font-family: sans-serif; font-style: normal; font-variant: normal;">George Pólya</a><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;"> </span><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;"><span style="font-family: sans-serif; font-style: normal; font-variant: normal;">(</span><span style="font-family: sans-serif; font-style: normal; font-variant: normal;">1887 - 1985</span><span style="font-family: sans-serif; font-style: normal; font-variant: normal;">)</span> </span><span style="color: rgb(0, 0, 0); font-family: sans-serif; font-style: normal; font-variant: normal;"> due to its importance in probability theory.</span></font><br></font></li>
+</ul>
+<p></p>
+<p></p></section><section><h2>
+    <span style="text-align: start;">What the CLT says?</span>
+</h2>
+<p>
+<span style="text-align: start;">
+    <i>
+    <br></i>
+</span>
+</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLw4wtFuFG5Cddh_lSApmA0yeMWMcaCFKW3MG8hEQtdbIbWzmLhaG60GQq" style="background-color: rgb(247, 251, 252); width: 52.07581597331419px; height: 40.25198983452063px; max-height: none; max-width: none;"><span style="text-align: left;">the means of random samples drawn from</span>
+<b style="text-align: left;"> any distribution </b>
+<span style="text-align: left;">with mean <b>\[</b></span><b style="text-align: left;">m\]</b> <span style="text-align: left;">and variance <b>$</b></span><b style="text-align: left;">s^2$</b>
+<span style="text-align: left;"> will have an approximately normal distribution with a mean equal to</span>
+<b style="text-align: left;"> $m$</b>
+<span style="text-align: left;"> and a variance equal to</span>
+<b style="text-align: left;"> $s^2/n$</b>
+<span style="text-align: left;">.</span>
+</p>
+</blockquote>
+<p>
+</p>
+<div style="text-align: right; ">
+<br>
+</div>
+<div style="text-align: right; ">
+<font style="font-size: 24px;">or as <span style="font-style: italic; text-align: start;">Sir </span>
+<a href="http://en.wikipedia.org/wiki/Francis_Galton" title="Francis Galton" style="font-style: italic; text-align: start; background-image: none;">Francis Galton</a>
+<span style="font-style: italic; text-align: start;">   said ... </span>
+</font>
+</div>
+<blockquote>
+<h2 style="text-align: right; font-style: normal; font-variant: normal;">
+<span style="font-size: 18px;">... Whenever a large sample of chaotic elements are taken in hand and marshaled in the order of their magnitude, an unsuspected and most beautiful form of regularity proves to have been latent all along.</span>
+<br>
+</h2>
+</blockquote>
+<div>
+<br><div>
+    <br>
+</div>
+</div>
+</section><section><h2>Opinion polls</h2>
+<div>
+<ol>
+<li>The real presidential approval  in the population is 52% (m=0.52), with a standard deviation of s= 0.2496 </li>
+<li>Then the mean presidential approval can be approximated by a normal distribution (bell curve)</li>
+</ol>
+</div>
+
+<div class="mathbox">\[ \bar{m} \sim N(\mu, \frac{\sigma}{n}) \]</div>
+
+</section><section><h2>so... how much is the  presidential approval?</h2>
+<div><font style="font-size: 24px;">Using the CLT we are 95% confident that the presidential approval is:</font></div>
+<div><font style="font-size: 24px;"><br></font></div>
+<div><div style="text-align: left;">
+<ol><font style="font-size: 24px;"><ol>
+<li>[43%-60%] <span style="font-style: normal; font-variant: normal;">with a sample size of n=30</span>
+</li>
+<li><span>[47%-57%] with a sample size of n=100</span></li>
+<li>
+<b><span style="font-style: normal; font-variant: normal;">[50.5%-53.5%] </span><span style="font-style: normal; font-variant: normal;">with a sample size of n=1000</span></b><br>
+</li>
+<li>
+<span style="font-style: normal; font-variant: normal;">[50.9%-53.1%] </span><span style="font-style: normal; font-variant: normal;">with a sample size of n=2000</span>
+</li>
+</ol></font></ol>
+<div style="text-align: center;"><img src="clt/150483-CLT_ci.png" style="width: 325px; height: 325px; max-height: none; max-width: none;"></div>
+</div></div></section><section><h2>Rhode Island </h2>
+<p style="text-align: center;"><font style="font-size: 24px;">Suppose you want to conduct an electoral  poll in Rhode Island,</font></p>
+<p style="text-align: center;"><font style="font-size: 24px;">the smaller<font> state in US (<span style="color: rgb(0, 0, 0);">1,050,292 inhabitants</span>).</font></font></p>
+<h2><font style="font-size: 32px;" color="#274e13">How many people should you interview? </font></h2>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29_%28US48%29.svg/800px-Rhode_Island_in_United_States_%28zoom%29_%28extra_close%29_%28US48%29.svg.png" style="width: 427.9981168461385px; height: 265.2504106143535px; max-height: none; max-width: none;"></p></section><section><h2>What do we need:</h2>
+<div>
+<ol>
+<li>
+<b>Random Sample. </b>Polls company are much more concern on the randomness of the respondents.  (see for example how Gallup select their samples)</li>
+<li>
+<b>Observations must be independent. </b>For example, not member of the same family</li>
+<li><b>The sample size must be sufficiently large. </b></li>
+<ol>
+<li>The mean of the sample approaches the mean of the population </li>
+<li>the mean distributes as as a normal distribution when N&gt;30</li>
+</ol>
+</ol>
+<div style="text-align: left;"><br></div>
+</div>
+<div style="text-align: left;"><br></div>
+<div style="text-align: left;">THE CLT is the main reason why we just need few people to study the  mean value of  population.</div>
+<div style="text-align: left;"><br></div>
+<div style="text-align: left;"><br></div></section><section><h2>Try yourself</h2>
+<div>
+    <iframe src="http://rundel.dyndns.org:3838/CLT/" style="border: none; width: 871.9735099337748px; height: 476px; max-height: none; max-width: none;">
+	</iframe>
+    
+<br>
+</div>
+
+
+</section><section><h2><br></h2></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":90996,"slug":"deck","title":"deck","description":"","visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/nicolabarban/665ae8/deck.jpg","view_count":1,"user":{"id":80597,"username":"nicolabarban","name":"Nicola Barban","email":"nicola.barban@gmail.com","description":"","thumbnail_url":"https://lh3.googleusercontent.com/-ykmLjjkAW30/AAAAAAAAAAI/AAAAAAAAAAA/dSeeFiM120o/photo.jpg","pro":true,"enterprise":false,"notify_on_receipt":false,"dropbox_connected":true,"registered":true},"background_transition":"fade","transition":"linear","theme_id":null,"theme_font":"montserrat","theme_color":"sky-blue","auto_slide_interval":0,"comments_visible":true,"rolling_links":false,"should_loop":false,"center":false,"rtl":false}};
+		</script>
+
+		<script>
+			SLConfig.current_user = {
+				name: "Nicola Barban",
+				username: "nicolabarban",
+				pro: true
+			};
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+
+				autoSlide: SLConfig.deck.auto_slide_interval || 0,
+				autoSlideStoppable: true,
+
+				rolling_links: SLConfig.deck.rolling_links || true,
+				center: SLConfig.deck.center || false,
+				loop: SLConfig.deck.should_loop || false,
+				rtl: SLConfig.deck.rtl || false,
+
+				transition: SLConfig.deck.transition,
+				backgroundTransition: SLConfig.deck.background_transition,
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
